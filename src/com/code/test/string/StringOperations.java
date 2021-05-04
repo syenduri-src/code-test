@@ -32,4 +32,11 @@ public class StringOperations {
         return first2CharactersUpdated + restOfTheString;
     }
 
+    public static void main(String[] args){
+        StringOperations object = new StringOperations();
+        System.out.println("swapLastTwoCharacters::" + object.swapLastTwoCharacters("SRIKS") );
+        System.out.println("truncateAInFirst2Positions::" + object.truncateAInFirst2Positions("SAARIKS") );
+
+    }
+
 }
